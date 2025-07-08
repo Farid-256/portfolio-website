@@ -1,0 +1,77 @@
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* navbar style */
+.nav-section{
+    margin: 10px 180px;
+}
+
+.nav-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.nokta1 {
+    font-weight: 800;
+}
+
+.nokta2 {
+    color: orange;
+}
+
+.nav-btn {
+    width: 80px;
+    padding: 10px 10px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.nav-btn:hover {
+    background-color: yellowgreen;
+}
+
+/* Bannar section */
+
+.bannar-h2 {
+    font-weight: 300;
+    font-size: xx-large;
+}
+
+.bannar-h1 {
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+.header-section {
+    
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px 0 180px;
+  background-image: url('./portfolio-resources/images/header_bg.png'), url('./portfolio-resources/images/developer.png'); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right, top left;
+  
+}
+.bannar-small{
+    color: brown;
+    
+    
+}
+   
+    
