@@ -219,6 +219,6 @@
         cursor: pointer;
     }
     .footer-btn:hover{
-        background-color: #555;
+        background-color: rgb(185, 176, 176);
         color: blue;
     }
